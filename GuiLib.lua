@@ -793,7 +793,7 @@ do
         return toggle
     end
 
-    function section:addToggle(title)
+    function section:addLabel(title)
         local label = utility:Create("ImageButton", {
             Name = "Toggle",
             Parent = self.container,
